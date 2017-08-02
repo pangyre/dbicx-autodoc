@@ -6,9 +6,9 @@ SYNOPSIS
     The recommended way to use this package is with the command-line tool
     dbicx-autodoc. You should check it's documentation for more details.
 
-      use DBICx:::AutoDoc;
+      use DBICx::AutoDoc;
   
-      my $ad = DBICx:::AutoDoc->new(
+      my $ad = DBICx::AutoDoc->new(
         schema  => 'MyApp::DB',
         output  => '/tmp',
       );
